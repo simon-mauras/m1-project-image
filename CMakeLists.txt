@@ -21,7 +21,10 @@ LINK_DIRECTORIES(${DGTAL_LIBRARY_DIRS})
 
 SET(SRCs
   getRank
-  naiveDistance)
+  naiveDistance
+  imgRotate
+  imgAddNoise
+  imgScale)
 
 
 FOREACH(FILE ${SRCs})
