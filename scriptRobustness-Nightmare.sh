@@ -2,7 +2,7 @@
 zmodload -i zsh/mathfunc
 
 ##YOUR SIMILARITY PROG NAME
-SIMILARYPROG=./naiveDistance
+SIMILARYPROG=./build/distance
 
 #nb of source images to test
 NBIMGTESTS=10
