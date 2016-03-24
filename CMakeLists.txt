@@ -3,6 +3,8 @@ PROJECT(Helloworld)
 
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 
+SET(CMAKE_CXX_FLAGS "-Wall -O3 ")
+
 ### We need Boost Program Options library
 SET(Boost_USE_STATIC_LIBS ON)
 SET(Boost_USE_MULTITHREADED ON)
@@ -14,7 +16,6 @@ if (Boost_FOUND)
   include_directories(${Boost_INCLUDE_DIRS})
 endif(Boost_FOUND)
 
- 
 FIND_PACKAGE(DGtal REQUIRED)
 INCLUDE_DIRECTORIES(${DGTAL_INCLUDE_DIRS})
 LINK_DIRECTORIES(${DGTAL_LIBRARY_DIRS})
