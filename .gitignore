@@ -1,1 +1,5 @@
 build/*
+model.dump
+corpus.csv
+tmp.pgm
+tmp2.pgm

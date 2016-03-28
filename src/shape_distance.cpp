@@ -8,10 +8,10 @@ using namespace std;
 
 double similarity(vector<double> v1, vector<double> v2)
 {
-  double res = 0;
+  double dist = 1;
   for (int i=0; i<(int)v1.size(); i++)
-    res += (v1[i] - v2[i]) * (v1[i] - v2[i]);
-  return 1 - sqrt(res / v1.size());
+    dist = max(dist, abs(v1[i] - v2[i])/(v1[i] + v2[i]));
+  return 1 - dist;
 }
 
 int main(int argc, char** argv)
@@ -19,8 +19,7 @@ int main(int argc, char** argv)
   MyImage image1 = GenericReader<MyImage>::import(argv[1]);
   MyImage image2 = GenericReader<MyImage>::import(argv[2]);
   
-  vector<double> features1, features2;
-  features1.push_back(dummy_feature(image1));
-  features2.push_back(dummy_feature(image2));
+  vector<double> features1 = get_features(image1);
+  vector<double> features2 = get_features(image2);
   cout << similarity(features1, features2) << endl;
 }

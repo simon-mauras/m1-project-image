@@ -2,7 +2,7 @@
 zmodload -i zsh/mathfunc
 
 ##YOUR Classification progname
-CLASSIFPROG="./naiveClassification.sh"
+CLASSIFPROG="./classifier_predict.py"
 
 #nb of source images to test
 NBIMGTESTS=40
@@ -39,7 +39,7 @@ for ((i=0; i < $NBIMGTESTS; i++)); do
 
             ##Running the retrieval
             eval `echo $CLASSIFPROG tmp.pgm` >! scores_tmp.txt
-            RANK=` ./getRank scores_tmp.txt $CLASSID`
+            RANK=` ./build/getRank scores_tmp.txt $CLASSID`
             echo "Rank=$RANK"
             
             ##Number of correct results in the first 10 

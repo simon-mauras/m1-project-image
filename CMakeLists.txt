@@ -28,8 +28,9 @@ SET(SRCs
   imgRotate
   imgAddNoise
   imgScale
-  distance
-  estimators)
+  shape_distance
+  shape_indexing
+  test)
 
 
 FOREACH(FILE ${SRCs})
