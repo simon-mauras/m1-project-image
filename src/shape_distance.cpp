@@ -8,7 +8,7 @@ using namespace std;
 
 double similarity(vector<double> v1, vector<double> v2)
 {
-  double dist = 1;
+  double dist = 0;
   for (int i=0; i<(int)v1.size(); i++)
     dist = max(dist, abs(v1[i] - v2[i])/(v1[i] + v2[i]));
   return 1 - dist;

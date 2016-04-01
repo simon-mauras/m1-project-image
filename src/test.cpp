@@ -6,9 +6,63 @@
 using namespace std;
 
 MyDigitalSet border(const MyDigitalSet &set)
-{ 
+{
   MyObject object(dt8_4, set);
   return object.border().pointSet();
+}
+
+MyImage shift_border(MyImage img, double v)
+{
+  if (v < 0)
+    for (auto p : img.domain())
+      img.setValue(p, 255 - img(p));
+  
+  Binarizer binarizer(img, 0);
+  DistTransf dt(img.domain(), binarizer, l2Metric);
+  
+  MyImage result(img.domain());
+  for (auto p : img.domain())
+    if (dt(p) > abs(v))
+      result.setValue(p, 255);
+  
+  if (v < 0)
+    for (auto p : img.domain())
+      result.setValue(p, 255 - result(p));
+  
+  return result;
+}
+
+MyImage smooth(const MyImage img)
+{
+  map<Point, double> filter;
+  filter[Point(-1, -1)] = 3./21;
+  filter[Point(-1, 1)] = 3./21;
+  filter[Point(1, -1)] = 3./21;
+  filter[Point(1, 1)] = 3./21;
+  filter[Point(0, -1)] = 2./21;
+  filter[Point(0, 1)] = 2./21;
+  filter[Point(-1, 0)] = 2./21;
+  filter[Point(1, 0)] = 2./21;
+  filter[Point(0, 0)] = 1./21;
+  
+  MyImage result(img.domain());
+  for (auto p : img.domain())
+  {
+    double val = 0;
+    for (auto delta : filter)
+    {
+      Point q = p + delta.first;
+      if (!img.domain().isInside(q))
+        continue;
+      if (img(q))
+        val += delta.second;
+    }
+    if (val > 0.5)
+      result.setValue(p, 255);
+    else
+      result.setValue(p, 0);
+  }
+  return result;
 }
 
 MyImage medial_axis(const MyImage &img)
@@ -23,8 +77,6 @@ MyImage medial_axis(const MyImage &img)
   
   vector<vector<SCell> > contours;
   Surfaces<KSpace>::extractAll2DSCellContours(contours, ks, sAdj, binarizer);
-  
-  cout << contours.size() << endl;
   
   int maxi = 0;
   for (int id=0; id<(int)contours.size(); id++)
@@ -52,7 +104,9 @@ int main(int argc, char **argv)
   MyDigitalSet set_out = border(biggest_component(set_in));
   MyImage img_out = image_of_set(set_out);
   //*/
-  MyImage img_out = medial_axis(add_border(img_in));
+  MyImage img_out = convex_hull(normalize(img_in));
+  
+  cout << compute_perimeter(img_out) << endl;
   
   GenericWriter<MyImage>::exportFile(argv[2], img_out);
 }
