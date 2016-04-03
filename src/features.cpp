@@ -200,6 +200,10 @@ MyImage convex_hull(const MyImage &img)
       result.setValue(p, 255);
     }
   }
+  // For the last column...
+  //for (int y=lower.back()[0]; y<=upper.back()[0]; y++)
+    //result.setValue(Point(lower.back()[0], y), 255);
+  
   return result;
 }
 
@@ -218,12 +222,19 @@ vector<double> compute_dt(const MyImage &img, int NB)
   for (auto x : dt.domain())
     if (dt(x) > 0)
       v.push_back(dt(x));
-  sort(v.begin(), v.end());
   
   vector<double> res;
-  for (int i=1; i<=NB; i++)
-    res.push_back(v[i*(v.size()-1)/NB] / v[v.size()-1]);
-  
+  if (v.empty())
+  {
+    for (int i=1; i<=NB; i++)
+      res.push_back(0);
+  }
+  else
+  {
+    sort(v.begin(), v.end());
+    for (int i=1; i<=NB; i++)
+      res.push_back(v[i*(v.size()-1)/NB] / v[v.size()-1]);
+  }
   return res;
 }
 
@@ -275,7 +286,6 @@ vector<double> get_features(const MyImage &img)
   
   for (auto c : compute_dt(convex, 15))
     result.push_back(c);
-  
   double perimeter = compute_perimeter(image);
   double area = compute_area(image);
   double perimeter_convex = compute_perimeter(convex);

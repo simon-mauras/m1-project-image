@@ -106,7 +106,7 @@ int main(int argc, char **argv)
   //*/
   MyImage img_out = convex_hull(normalize(img_in));
   
-  cout << compute_perimeter(img_out) << endl;
+  //cout << compute_perimeter(img_out) << endl;
   
   GenericWriter<MyImage>::exportFile(argv[2], img_out);
 }
