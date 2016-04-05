@@ -2,8 +2,8 @@ PROJECT(Helloworld)
 #Required in DGtal
 
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
-
-SET(CMAKE_CXX_FLAGS "-Wall -O3 -std=c++11 ")
+SET(CMAKE_BUILD_TYPE Release)
+ADD_DEFINITIONS("-std=c++11")
 
 ### We need Boost Program Options library
 SET(Boost_USE_STATIC_LIBS ON)

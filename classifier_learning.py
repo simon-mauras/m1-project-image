@@ -39,7 +39,7 @@ for i in classId:
 plt.show()
 """
 
-model = OneVsRestClassifier(KNeighborsClassifier(48))
+model = OneVsRestClassifier(KNeighborsClassifier(50))
 model.fit(X,y)
 with open("model.dump", "wb") as dumpfile:
   pickle.dump(model, dumpfile)
@@ -54,7 +54,7 @@ def scoring(estimator, X, y):
       score = score + 1
   return score / len(y)
 
-cv = cross_validation.KFold(n=X.shape[0], n_folds=4,
+cv = cross_validation.KFold(n=X.shape[0], n_folds=10,
                             shuffle=True, random_state=0)
 
 """
@@ -78,7 +78,8 @@ print(res.best_params_)
 
 models = [
   ("KNeighbors 1", KNeighborsClassifier(1)),
-  ("KNeighbors 48", KNeighborsClassifier(48)),
+  ("KNeighbors 25", KNeighborsClassifier(25)),
+  ("KNeighbors 50", KNeighborsClassifier(50)),
   ("Gaussian Naive Bayes", GaussianNB()),
   ("Logistic Regression", LogisticRegression()),
   #("Decision Tree", DecisionTreeClassifier(max_depth=4)),

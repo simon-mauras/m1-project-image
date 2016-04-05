@@ -5,13 +5,13 @@ zmodload -i zsh/mathfunc
 CLASSIFPROG="./classifier_predict.py"
 
 #nb of source images to test
-NBIMGTESTS=40
+NBIMGTESTS=200
 
 #nb of noisyfied copies
 NBTESTS=5
 
 #No noise here
-MAXNOISE=0.7
+MAXNOISE=0.5
 sum=0.0
 variance=0.0
 cpt=0.0
@@ -23,7 +23,7 @@ for ((i=0; i < $NBIMGTESTS; i++)); do
     echo "Classname: "$CLASSNAME
 
     ##Pick a random image in this class
-    IMGID=`expr $RANDOM % 19 + 1`
+    IMGID=`expr $RANDOM % 5 + 11`
     IMGNAME=database/$CLASSNAME-$IMGID.pgm
     echo $IMGNAME
 
