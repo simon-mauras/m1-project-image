@@ -5,7 +5,7 @@ zmodload -i zsh/mathfunc
 CLASSIFPROG="./classifier_predict.py"
 
 #nb of source images to test
-NBIMGTESTS=200
+NBIMGTESTS=500
 
 #nb of noisyfied copies
 NBTESTS=5

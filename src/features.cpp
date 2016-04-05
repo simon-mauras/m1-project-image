@@ -44,7 +44,7 @@ MyImage smooth(const MyImage img, int r)
       else
         nb_black++;
     }
-    if (nb_white > nb_black/2)
+    if (img(p) || nb_white > nb_black / 2)
       result.setValue(p, 255);
     else
       result.setValue(p, 0);
@@ -60,7 +60,6 @@ MyImage border(const MyImage &img)
   ks.init(img.domain().lowerBound(), img.domain().upperBound(), true);
   
   SurfelAdjacency<2> sAdj(true);
-  
   vector<vector<SCell> > contours;
   Surfaces<KSpace>::extractAll2DSCellContours(contours, ks, sAdj, binarizer);
   
@@ -133,8 +132,8 @@ MyImage fill(const MyImage &img)
 {
   set<Point> background;
   queue<Point> q;
-  q.push(Point(-1, -1));
-  background.insert(Point(-1, -1));
+  q.push(img.domain().lowerBound());
+  background.insert(img.domain().lowerBound());
   while (!q.empty())
   {
     Point act = q.front();
@@ -176,9 +175,24 @@ MyImage scale(const MyImage &img, double scale)
   SamplerImageAdapter sampledImage(img,reSampler.getSubSampledDomain(),
                                    reSampler, functors::Identity());
   
-  MyImage result(sampledImage.domain());
+  Point inf = sampledImage.domain().upperBound();
+  Point sup = sampledImage.domain().lowerBound();
+  for (auto p : sampledImage.domain())
+  if (sampledImage(p))
+  {
+    inf[0] = min(inf[0], p[0]);
+    inf[1] = min(inf[1], p[1]);
+    sup[0] = max(sup[0], p[0]);
+    sup[1] = max(sup[1], p[1]);
+  }
+  if (inf[0] > sup[0] || inf[1] > sup[1])
+    sup = inf;
+  
+  MyImage result(Domain(inf - Point(20, 20), sup + Point(20, 20)));
   for (auto p : result.domain())
-    result.setValue(p, sampledImage(p));
+    if (sampledImage.domain().isInside(p))
+      result.setValue(p, sampledImage(p));
+    
   return result;
 }
 
@@ -195,7 +209,7 @@ MyImage normalize(const MyImage &img)
 {
   double area = compute_area(img);
   double s = sqrt(1e5 / area);
-  return fill(border(add_border(smooth(scale(img, s), 10))));
+  return fill(border(fill(add_border(smooth(scale(img, s), 10)))));
 }
   
 

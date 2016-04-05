@@ -71,9 +71,12 @@ int main(int argc, char **argv)
   //*/
   
   MyImage img_out = normalize(img_in);
+  cout << img_out.domain() << endl;
+/*  for (auto p : img_out.domain())
+    cout << (int)img_out(p) << endl;*/
   
-  for (int i=2; i<=10; i++)
-    cout << similarity_rotation(img_out, 2 * M_PI / i, 3) << endl;
+  //for (int i=2; i<=10; i++)
+  //  cout << similarity_rotation(img_out, 2 * M_PI / i, 3) << endl;
   
-  //GenericWriter<MyImage>::exportFile(argv[2], img_out);
+  GenericWriter<MyImage>::exportFile(argv[2], img_out);
 }

@@ -39,7 +39,7 @@ for i in classId:
 plt.show()
 """
 
-model = OneVsRestClassifier(KNeighborsClassifier(50))
+model = OneVsRestClassifier(KNeighborsClassifier(25))
 model.fit(X,y)
 with open("model.dump", "wb") as dumpfile:
   pickle.dump(model, dumpfile)

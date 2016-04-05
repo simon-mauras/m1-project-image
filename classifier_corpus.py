@@ -11,7 +11,6 @@ def database():
     print("\r(%d/%d)" % (i, nb_files), end="", flush=True)
     m = re.match(r"^(\w*)-(\d*).pgm$", f)
     if m is None: raise(Exception(f))
-    #if int(m.group(2)) in [11, 12, 13, 14, 15]: continue
     yield(m.group(1), database_dir + f)
   print("\r" + " " * 20)
 
