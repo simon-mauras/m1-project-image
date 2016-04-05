@@ -18,22 +18,19 @@
 
 \tableofcontents
 
-\vspace{1cm}
-\noindent\rule{\textwidth}{0.5px}
+\newpage
 \section{Introduction}
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobor-
-tis facilisis sem. Nullam nec mi et neque pharetra sollicitudin. Praesent
-imperdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lec-
-tus velit ultrices augue, a dignissim nibh lectus placerat pede. Vivamus
-nunc nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor. Prae-
-sent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Duis fringilla tristique neque. Sed interdum libero ut metus. Pellentesque
-placerat. Nam rutrum augue a leo. Morbi sed elit sit amet ante lobortis
-sollicitudin. Praesent blandit blandit mauris.
-
-\newpage
 \section{Implementation}
+
+\subsection{Installation}
+To install our shape classifier, you will need to install several Python 3 packages (scipy, numpy, sklearn). You will also need the C++ library \href{http://dgtal.org}{DGtal}.
+
+\medskip\noindent To compile our project you need to have cmake installed.
+\begin{verbatim}
+mkdir build && cd build
+cmake .. -DDGtal_DIR=/path-to-dgtal-folder/build
+\end{verbatim}
 
 \subsection{Feature extraction}
 
@@ -42,41 +39,29 @@ The program \verb|shape_indexing| takes as input an image and write a vector of 
 The program \verb|shape_distance| computes the similarity between the vectors of features of two images and write it on the standard outut.
 The python script \verb|classifier_corpus.py| builds a vector of feature for each image of the directory \verb|database| and store it in \verb|corpus.csv|.
 
-\subsection{Learning}
+\subsection{Machine learning}
 
 Once we have extracted a vector of values for each image of the database, we train a learning model on the corpus. The script \verb|classifier_learning.py| reads the vectors of features, train a learning model and export it in the file \verb|model.dump|.
 
 \noindent We choose to use a $k$-nearest neighbors classifier (\href{http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html}{scikit-learn}).
 To have an estimation of the score with the whole database, we use cross-validation.
 
-\subsubsection{$k$-nearest neighbors classifier}
+\newpage
+\section{Learning models}
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobor-
-tis facilisis sem. Nullam nec mi et neque pharetra sollicitudin. Praesent
-imperdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lec-
-tus velit ultrices augue, a dignissim nibh lectus placerat pede. Vivamus
-nunc nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor. Prae-
-sent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Duis fringilla tristique neque. Sed interdum libero ut metus. Pellentesque
-placerat. Nam rutrum augue a leo. Morbi sed elit sit amet ante lobortis
-sollicitudin. Praesent blandit blandit mauris.
+As machine learning is not the objective of the project, this part will be brief. The goal of model selection is to find the best machine learning algorithm (and the best parameters) for our dataset. We tested several models ($k$-neighbors, Gaussian naïve bayes, Logistic regression, Decision tree, Random forest, \dots). To evaluate the score we use cross-validation. We chose to use a $k$-neighbors classifier with $k= 25$.
 
-\subsubsection{Cross-validation}
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobor-
-tis facilisis sem. Nullam nec mi et neque pharetra sollicitudin. Praesent
-imperdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lec-
-tus velit ultrices augue, a dignissim nibh lectus placerat pede. Vivamus
-nunc nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor. Prae-
-sent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Duis fringilla tristique neque. Sed interdum libero ut metus. Pellentesque
-placerat. Nam rutrum augue a leo. Morbi sed elit sit amet ante lobortis
-sollicitudin. Praesent blandit blandit mauris.
+\subsection{$k$-nearest neighbors classifier}
+
+
+\subsection{Cross-validation}
+
 
 \newpage
 \section{Normalization}
 
-During the classification, we need to analyse some noisy images. A preprocessing is therefore needed. Our preprocessing is done in 3 steps.
+During the classification, we need to analyse some noisy images. A preprocessing is therefore needed. Our preprocessing is done in several steps.
 \begin{itemize}
   \item Scale the image
   \item Smooth with a median filter
@@ -146,6 +131,11 @@ However we can notice that it is not enough to have a good estimator. Indeed the
 We just build an estimator that can help us to distinguish an apple from a beetle. But we can notice that this estimator is not very good to decide whether a shape is a cattle of an apple.
 
 \newpage
+\subsection{Perimeter and Area}
+Among all the estimators we could implement, we chose to compute the perimeter and the area of the shape. However, a good feature must be invariant under scaling. When a shape is scaled by a factor $k$, all length are multiplied by $k$ and all areas are multiplied by $k^2$. So we add the perimeter over the square root of the area to the list of features.
+
+\medskip It is implemented in the functions \verb|compute_area| and \verb|compute_perimeter| (in \verb|features.cpp|). We compute the perimeter by decomposing the contour into maximal DSS (DGtal implementation). We only compute the number of white pixels to evaluate the area of the shape.
+
 \subsection{Rotation Distance}
 
 One caracteristic which is still not used is point reflexion. There is a lot of images with symetry and rotation invariance. Our idea is to compare the initial image with its rotation of $\theta$ degrees around its centroid. We can prove that if we can find a invariance under rotation for our image, then the centroid of the shape will be the center of the rotation.
@@ -256,14 +246,32 @@ Ratio = $0,46$ & Ratio = $0.79$
 
 \newpage
 \section{Conclusion}
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobor-
-tis facilisis sem. Nullam nec mi et neque pharetra sollicitudin. Praesent
-imperdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lec-
-tus velit ultrices augue, a dignissim nibh lectus placerat pede. Vivamus
-nunc nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor. Prae-
-sent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Duis fringilla tristique neque. Sed interdum libero ut metus. Pellentesque
-placerat. Nam rutrum augue a leo. Morbi sed elit sit amet ante lobortis
-sollicitudin. Praesent blandit blandit mauris.
+
+We have presented in this report the learning model we chose and the features we designed. Now is the time to analyse the results and the limits of our choices.
+
+\subsection{Feature normalization}
+The description of an image is a vector of values in $\mathbb R$. One first problem is that some of those values are bigger than others. More annoying, the variances are very different from one coordinate to one other. It is a problem as our learning model uses a "uniform" distance. We fix this problem manually by testing several weights for each feature.
+
+\subsection{Robustness results}
+The robustness of the feature extraction is an indicator showing how resistant to noise/scaling/rotation our features are. From one image we can construct an other one by rotating, scaling and adding noise. If we compute the feature vectors of those two images, their distance should be as small as possible. Let's define the similarity of two vectors $(u_i)_i$ and $(v_i)_i$.
+\[\text{Similarity} = 1 - \max_i \frac{|u_i - v_i|}{|u_i| + |v_i|}\]
+This definition is interesting because a good robustness certifies that for each coordinate the distance is small. (We use $\infty$ norm).
+\begin{figure}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Noise & Robustness score & Variance \\
+\hline
+0.0 & 0.993 & $2.0 \times 10^{-4}$ \\
+0.3 & 0.989 & $5.0 \times 10^{-4}$ \\
+0.7 & 0.982 & $7.0 \times 10^{-4}$ \\
+\hline
+\end{tabular}
+\caption{Robustness results}
+\end{figure}
+
+\subsection{Classification results}
+
+We don't have the whole database of image so we can't know what our final score will be. However we have some hints. The cross validation score is supposed to be an approximation of the score of the classifier outsite of the training set. The cross validation score we get is $0.980$. As the robustness is close to $1$, we can expect a final score around $97\%$.
 
 \end{document}
