@@ -16,7 +16,7 @@ cmake .. -DDGtal_DIR=/home/dcoeurjo/DGtal/build # DGtal installation dir
 
 ```
 cp database/cattle-1.pgm tmp.pgm
-./build/addNoise -i tmp.pgm -o tmp2.pgm -n 0.5
+./build/imgAddNoise -i tmp.pgm -o tmp2.pgm -n 0.5
 ./build/shape_distance tmp.pgm tmp2.pgm
 rm tmp.pgm tmp2.pgm
 ```
@@ -30,7 +30,7 @@ rm tmp.pgm tmp2.pgm
 cp database/cattle-1.pgm tmp.pgm
 ./classifier_predict.py tmp.pgm > score_tmp.txt
 ./build/getRank score_tmp.txt 18
-rm tmp.pgm score_tmp.pgm
+rm tmp.pgm score_tmp.txt
 ```
 - the tool outputs (standard output) a list of 70 values between 0
 and 1 (classification score or probability to belong to the class)
