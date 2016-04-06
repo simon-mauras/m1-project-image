@@ -9,7 +9,7 @@
 \usepackage{wrapfig}
 
 \title{M1 Project - Image}
-\author{Simon Mauras}
+\author{Simon Mauras \\ Victor Hublitz}
 \date{March 29,  2016}
 
 \begin{document}
@@ -21,7 +21,7 @@
 \newpage
 \section{Introduction}
 
-This report describe the implementation of a feature-based shape-classifier tool. We suppose that we solved the segmentation problem and we want to classify binary shapes. This is part of the evaluation of a master's degree lecture at ENS Lyon.
+This report describe the implementation of a feature-based shape-classifier. We suppose that we solved the segmentation problem and we want to classify binary shapes. This project is part of the evaluation of a master's degree lecture at ENS Lyon.
 
 In a first part we are going to describe the actual implementation of our tool. After a brief part on the machine learning problem, we will speak about normalization of images. Then we will explain how we designed features and we will finally conclude analysing the results we get.
 
@@ -47,7 +47,7 @@ The python script \verb|classifier_corpus.py| builds a vector of feature for eac
 
 Once we have extracted a vector of values for each image of the database, we train a learning model on the corpus. The script \verb|classifier_learning.py| reads the vectors of features, train a learning model and export it in the file \verb|model.dump|.
 
-\noindent We choose to use a $k$-nearest neighbors classifier (\href{http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html}{scikit-learn}).
+\noindent We chose to use a $k$-nearest neighbors classifier (\href{http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html}{scikit-learn}).
 To have an estimation of the score with the whole database, we use cross-validation.
 
 \newpage
@@ -58,7 +58,7 @@ As machine learning is not the objective of the project, this part will be brief
 
 \subsection{$k$-nearest neighbors classifier}
 
-Let's introduce the problem of machine learning. Given a set $E$ of points, each of them being labeled by a class $c \in C$. We assume that the distribution of the classes follows some pattern. We want an algorithm able to decide in which class a point $e \in E$ belongs. To do that, we are given a corpus $(X, y)$ with $X \in E^n$ a family of points and $y \in C^n$ the classes to which they belong. 
+Let's introduce the problem of machine learning. We are given a set $E$ of points, each of them being labeled by a class $c \in C$. We assume that the distribution of the classes follows some pattern. We want an algorithm able to decide in which class a point $e \in E$ belongs. To do that, we are given a corpus $(X, y)$ with $X \in E^n$ a family of points and $y \in C^n$ the classes to which they belong. 
 
 We chose the $k$-nearest neighbors classifier algorithm. For each query $e \in E$ we look for the $k$-nearest point to $e$ in $X$ (using a distance $d$). The class with the biggest frequency in this set of $k$ points is the most likely class. To compute efficiently the $k$-nearest neigbors of a point we typicaly store $X$ in a datastructure like a Kd-tree.
 
@@ -85,7 +85,7 @@ During the classification, we need to analyse some noisy images. A preprocessing
 \end{itemize}
 
 \noindent We normalize images using function \verb|normalize| (in \verb|features.cpp|).
-The scaling is important because even if our features are scale-invariant, the digitization is a huge problem. Indeed after a few experiments, we realize that scaling then smoothing is better than just using the initial image. The result of normalization on a very noisy shape is satisfactory. 
+The scaling is important because even if our features are scale-invariant, the digitization is a huge problem. Indeed after a few experiments, we realize that when the order of magnitude of the digitization is close to the order of magnitude of the shape, our results are not consistent. So scaling then smoothing is better than just using the initial image. The result of normalization on a very noisy shape is satisfactory. 
 
 \begin{figure}[h!]
 \centering
@@ -126,14 +126,14 @@ Let's take a look at the distance transformation histogram for several shapes.
 \caption{Distance Transformation Histogram}
 \end{figure}
 
-\noindent We can observe that a shape can be characterized by the distributon of its distance transformation.
+\noindent We can observe that a shape can be characterized by the distribution of its distance transformation.
 
-\noindent Now we need to build an estimator satisfying the following requirement:
+\noindent Now we need to build an estimator satisfying the following requirements:
 \begin{itemize}
 	\item Must be invariant under translation, scaling and rotation.
 	\item We need some kind of continuity. If there is a small modification of the shape then the new estimation has to be close to the initial one.
 \end{itemize}
-We already have invariace by translation and rotation. In order to have the invariance under scaling, we can normalize the distance and the frequencies.
+We already have invariance by translation and rotation. In order to have the invariance under scaling, we can normalize the distance and the frequencies.
 
 However we can notice that it is not enough to have a good estimator. Indeed the histograms $(1, 0, \dots, 0)$ and $(0, 1, 0, \dots, 0)$ are very close but the distance between those two vectors is huge. To fix this problem we are going to compute percentiles. The function \verb|compute_dt| (in \verb|features.cpp|) compute those features.
 \begin{figure}[h!]
@@ -200,7 +200,7 @@ We implemented the function \verb|convex_hull| (in \verb|features.cpp|)  which c
 \definecolor{qqqqff}{rgb}{0,0,1}
 \definecolor{ffqqqq}{rgb}{1,0,0}
 \definecolor{cqcqcq}{rgb}{0.75,0.75,0.75}
-\begin{tikzpicture}[line cap=round,line join=round,x=0.5cm,y=0.5cm]
+\begin{tikzpicture}[line cap=round,line join=round,x=0.4cm,y=0.4cm]
 \draw [line width=1.6pt,color=ffqqqq] (6,2)-- (7,4);
 \draw [line width=1.6pt,color=ffqqqq] (7,4)-- (10,5);
 \draw [line width=1.6pt,color=ffqqqq] (10,5)-- (14,4);
@@ -239,7 +239,7 @@ We implemented the function \verb|convex_hull| (in \verb|features.cpp|)  which c
 \caption{Upper and lower hull}
 \end{wrapfigure}
 
-\medskip In the function \verb|convex_hull| (in \verb|features.cpp|) we implemented the monotone chain algorithm (aka Andrew's algorithm) as our points are aready sorted (2D matrix of $0/1$). We first compute the upper hull and the lower hull.
+\medskip We chose the monotone chain algorithm (aka Andrew's algorithm) as our points are aready sorted, it is indeed a 2D matrix of $0/1$. We first compute the upper hull and the lower hull.
 Then we simultaneously go through the domain, the upper hull and the lower hull to decide whether each point of the image is in the convex hull. The overall complexity is in $\mathcal O(n)$ where $n=a \times b$ is the size of the image.
 
 \medskip One feature that give very good results is the ratio between the area of the initial image and the area of the convex hull of the shape. It is straighforward to show that this estimator is invariant under translation and rotation. We can also notice that the two area are multiplied by the same factor when scaling an image.
