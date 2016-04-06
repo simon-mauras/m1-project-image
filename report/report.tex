@@ -54,8 +54,19 @@ As machine learning is not the objective of the project, this part will be brief
 
 \subsection{$k$-nearest neighbors classifier}
 
+Let's introduce the problem of machine learning. Given a set $E$ of points, each of them being labeled by a class $c \in C$. We assume that the distribution of the classes follows some pattern. We want an algorithm able to decide in which class a point $e \in E$ belongs. To do that, we are given a corpus $(X, y)$ with $X \in E^n$ a family of points and $y \in C^n$ the classes to which they belong. 
+
+We chose the $k$-nearest neighbors classifier algorithm. For each query $e \in E$ we look for the $k$-nearest point to $e$ in $X$ (using a distance $d$). The class with the biggest frequency in this set of $k$ points is the most likely class. To compute efficiently the $k$-nearest neigbors of a point we typicaly store $X$ in a datastructure like a Kd-tree.
 
 \subsection{Cross-validation}
+
+Now that we have a learning algorithm, we want to evaluate its efficiency. But we only know the classes of the points of the corpus. And computing the score of our algorithm on the corpus is a very bad approximation. Indeed our algorithm may be very good inside the corpus and very bad outside of it. One solution to this problem is cross-validation ($N$-fold cross validation).
+\begin{itemize}
+	\item Shuffle the corpus, then split it in $N$ parts (of equal size).
+	\item For each part, train the algorithm on the $N-1$ remaining parts and compute the score with the current one.
+	\item Compute the average (or the minimum) of those scores.
+\end{itemize}
+We can expect that the score outside of the training corpus is close to the cross-validation score.
 
 
 \newpage
@@ -63,9 +74,8 @@ As machine learning is not the objective of the project, this part will be brief
 
 During the classification, we need to analyse some noisy images. A preprocessing is therefore needed. Our preprocessing is done in several steps.
 \begin{itemize}
-  \item Scale the image
-  \item Smooth with a median filter
-	\item Add a small (1px thick) black border to handle shapes that touch the border of the image (making sure that the background is connex).
+  \item Scale the image.
+  \item Smooth with a median filter.
 	\item Compute the contour of the shape.
 	\item Fill-in the shape.
 \end{itemize}

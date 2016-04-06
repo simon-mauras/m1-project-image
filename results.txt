@@ -1,40 +1,271 @@
-Classname: bell
-database/bell-13.pgm
+Classname: camel
+database/camel-11.pgm
+Rank=2
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: elephant
+database/elephant-12.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: carriage
+database/carriage-15.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: Bone
-database/Bone-13.pgm
+Classname: horseshoe
+database/horseshoe-11.pgm
+Rank=2
 Rank=1
-Rank=1
-Rank=1
+Rank=2
 Rank=1
 Rank=1
 Classname: HCircle
-database/HCircle-15.pgm
+database/HCircle-14.pgm
+Rank=70
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: hammer
+database/hammer-15.pgm
+Rank=3
+Rank=3
+Rank=4
+Rank=2
+Rank=3
+Classname: device3
+database/device3-11.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: lmfish
-database/lmfish-12.pgm
+Classname: cattle
+database/cattle-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: flatfish
+database/flatfish-13.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: beetle
+database/beetle-15.pgm
+Rank=2
+Rank=2
+Rank=4
+Rank=2
+Rank=2
+Classname: camel
+database/camel-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device3
+database/device3-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: flatfish
+database/flatfish-12.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: device7
+database/device7-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device4
+database/device4-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: chicken
+database/chicken-13.pgm
+Rank=1
+Rank=2
+Rank=1
+Rank=1
+Rank=1
+Classname: rat
+database/rat-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: horseshoe
+database/horseshoe-13.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=1
+Classname: Comma
+database/Comma-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: personal_car
+database/personal_car-13.pgm
+Rank=10
+Rank=10
+Rank=10
+Rank=10
+Rank=10
+Classname: fish
+database/fish-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-13.pgm
+Rank=1
+Rank=2
+Rank=2
+Rank=1
+Rank=1
+Classname: fork
+database/fork-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: ray
+database/ray-11.pgm
+Rank=2
+Rank=2
+Rank=1
+Rank=1
+Rank=2
+Classname: beetle
+database/beetle-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: device7
+database/device7-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fish
+database/fish-15.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: key
+database/key-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: device4
+database/device4-11.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Classname: bottle
-database/bottle-14.pgm
+database/bottle-13.pgm
+Rank=1
+Rank=7
+Rank=1
+Rank=1
+Rank=1
+Classname: Heart
+database/Heart-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device5
+database/device5-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: children
+database/children-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: crown
+database/crown-14.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: bottle
+database/bottle-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=5
 Rank=2
+Classname: lmfish
+database/lmfish-14.pgm
 Rank=1
 Rank=1
-Rank=2
 Rank=1
-Classname: rat
-database/rat-13.pgm
+Rank=1
+Rank=1
+Classname: device9
+database/device9-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bell
+database/bell-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: key
+database/key-15.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -47,29 +278,162 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: Heart
-database/Heart-14.pgm
+Classname: device7
+database/device7-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Bone
+database/Bone-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: jar
+database/jar-14.pgm
 Rank=2
 Rank=2
-Rank=4
+Rank=2
+Rank=2
+Rank=2
+Classname: deer
+database/deer-11.pgm
+Rank=1
+Rank=70
+Rank=1
+Rank=1
+Rank=1
+Classname: flatfish
+database/flatfish-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: children
+database/children-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: HCircle
+database/HCircle-15.pgm
+Rank=1
+Rank=3
+Rank=1
+Rank=1
+Rank=1
+Classname: device5
+database/device5-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device6
+database/device6-15.pgm
+Rank=2
+Rank=2
+Rank=2
 Rank=2
 Rank=2
 Classname: sea_snake
 database/sea_snake-11.pgm
 Rank=4
-Rank=2
+Rank=3
 Rank=4
 Rank=4
+Rank=3
+Classname: cup
+database/cup-15.pgm
+Rank=1
+Rank=70
+Rank=1
+Rank=1
+Rank=1
+Classname: octopus
+database/octopus-13.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: hammer
+database/hammer-13.pgm
+Rank=3
+Rank=3
+Rank=3
 Rank=4
-Classname: Bone
-database/Bone-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
+Rank=3
 Classname: fish
-database/fish-12.pgm
+database/fish-15.pgm
+Rank=70
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: crown
+database/crown-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=2
+Rank=1
+Classname: chopper
+database/chopper-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: butterfly
+database/butterfly-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: apple
+database/apple-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: hammer
+database/hammer-12.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: fork
+database/fork-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: chopper
+database/chopper-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: deer
+database/deer-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: dog
+database/dog-13.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -82,29 +446,1282 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
+Classname: pocket
+database/pocket-14.pgm
+Rank=6
+Rank=7
+Rank=7
+Rank=7
+Rank=7
+Classname: horse
+database/horse-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: lizzard
+database/lizzard-13.pgm
+Rank=4
+Rank=3
+Rank=4
+Rank=3
+Rank=4
+Classname: apple
+database/apple-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: cattle
+database/cattle-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: hammer
+database/hammer-12.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: carriage
+database/carriage-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: octopus
+database/octopus-15.pgm
+Rank=2
+Rank=2
+Rank=3
+Rank=2
+Rank=2
+Classname: fountain
+database/fountain-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: cattle
+database/cattle-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-12.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=1
+Classname: pocket
+database/pocket-14.pgm
+Rank=7
+Rank=6
+Rank=7
+Rank=7
+Rank=7
+Classname: device5
+database/device5-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pocket
+database/pocket-14.pgm
+Rank=7
+Rank=7
+Rank=70
+Rank=7
+Rank=7
 Classname: key
-database/key-12.pgm
-Rank=12
-Rank=13
-Rank=13
-Rank=12
-Rank=12
-Classname: device9
-database/device9-12.pgm
+database/key-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=1
+Rank=2
+Classname: cellular_phone
+database/cellular_phone-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device0
+database/device0-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fork
+database/fork-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device7
+database/device7-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: frog
+database/frog-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: elephant
+database/elephant-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pencil
+database/pencil-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: children
+database/children-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: sea_snake
+database/sea_snake-14.pgm
+Rank=70
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: car
+database/car-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Heart
+database/Heart-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: guitar
+database/guitar-14.pgm
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Rank=1
+Classname: bat
+database/bat-11.pgm
+Rank=1
+Rank=2
+Rank=1
+Rank=2
+Rank=1
+Classname: fish
+database/fish-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: octopus
+database/octopus-14.pgm
+Rank=2
+Rank=2
+Rank=3
+Rank=1
+Rank=1
+Classname: octopus
+database/octopus-12.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: chicken
+database/chicken-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fly
+database/fly-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: jar
+database/jar-13.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: lizzard
+database/lizzard-12.pgm
+Rank=70
+Rank=4
+Rank=4
+Rank=4
+Rank=4
+Classname: carriage
+database/carriage-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: children
+database/children-14.pgm
+Rank=70
+Rank=1
+Rank=1
+Rank=3
+Rank=1
+Classname: face
+database/face-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: octopus
+database/octopus-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: pocket
+database/pocket-15.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Classname: cup
-database/cup-11.pgm
+database/cup-12.pgm
 Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fountain
+database/fountain-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: frog
+database/frog-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: lizzard
+database/lizzard-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: HCircle
+database/HCircle-13.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: device4
+database/device4-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device3
+database/device3-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device8
+database/device8-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Comma
+database/Comma-15.pgm
+Rank=4
+Rank=5
+Rank=4
+Rank=5
+Rank=4
+Classname: fork
+database/fork-13.pgm
+Rank=5
+Rank=70
+Rank=6
+Rank=6
+Rank=6
+Classname: classic
+database/classic-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: elephant
+database/elephant-12.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: personal_car
+database/personal_car-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bird
+database/bird-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: pocket
+database/pocket-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: dog
+database/dog-11.pgm
+Rank=4
+Rank=4
+Rank=4
+Rank=4
+Rank=4
+Classname: horse
+database/horse-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: lizzard
+database/lizzard-11.pgm
+Rank=4
+Rank=4
+Rank=4
+Rank=70
+Rank=4
+Classname: Bone
+database/Bone-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: horse
+database/horse-13.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: device6
+database/device6-14.pgm
+Rank=3
+Rank=5
+Rank=5
+Rank=5
+Rank=5
+Classname: children
+database/children-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Classname: cellular_phone
+database/cellular_phone-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device7
+database/device7-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: dog
+database/dog-14.pgm
+Rank=1
+Rank=1
+Rank=5
+Rank=3
+Rank=1
+Classname: deer
+database/deer-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pencil
+database/pencil-15.pgm
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Rank=70
+Classname: crown
+database/crown-15.pgm
+Rank=6
+Rank=6
+Rank=6
+Rank=6
+Rank=6
+Classname: dog
+database/dog-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fish
+database/fish-12.pgm
+Rank=6
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Classname: frog
+database/frog-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pencil
+database/pencil-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: horse
+database/horse-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bell
+database/bell-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: camel
+database/camel-15.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=1
+Classname: lmfish
+database/lmfish-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-12.pgm
+Rank=2
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: fish
+database/fish-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: HCircle
+database/HCircle-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: classic
+database/classic-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: crown
+database/crown-15.pgm
+Rank=6
+Rank=6
+Rank=7
+Rank=6
+Rank=8
+Classname: device1
+database/device1-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: children
+database/children-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=70
+Classname: horseshoe
+database/horseshoe-15.pgm
+Rank=1
+Rank=2
+Rank=1
+Rank=1
+Rank=2
+Classname: device5
+database/device5-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: lmfish
+database/lmfish-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bell
+database/bell-15.pgm
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Rank=1
+Classname: pocket
+database/pocket-14.pgm
+Rank=7
+Rank=7
+Rank=7
+Rank=7
+Rank=7
+Classname: horse
+database/horse-15.pgm
+Rank=1
+Rank=2
+Rank=1
+Rank=2
+Rank=1
+Classname: device8
+database/device8-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fountain
+database/fountain-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: chopper
+database/chopper-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Comma
+database/Comma-13.pgm
+Rank=4
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Classname: rat
 database/rat-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=2
+Rank=1
+Classname: elephant
+database/elephant-11.pgm
+Rank=2
+Rank=2
+Rank=3
+Rank=2
+Rank=2
+Classname: device6
+database/device6-13.pgm
+Rank=2
+Rank=1
+Rank=2
+Rank=2
+Rank=2
+Classname: deer
+database/deer-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: sea_snake
+database/sea_snake-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=3
+Classname: hat
+database/hat-11.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: Heart
+database/Heart-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: rat
+database/rat-14.pgm
+Rank=70
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device4
+database/device4-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: car
+database/car-14.pgm
+Rank=1
+Rank=2
+Rank=1
+Rank=3
+Rank=1
+Classname: face
+database/face-14.pgm
+Rank=7
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: horseshoe
+database/horseshoe-13.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: fly
+database/fly-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: bell
+database/bell-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: lmfish
+database/lmfish-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device1
+database/device1-13.pgm
+Rank=1
+Rank=3
+Rank=1
+Rank=1
+Rank=1
+Classname: chopper
+database/chopper-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device7
+database/device7-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: lmfish
+database/lmfish-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device5
+database/device5-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-14.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: bat
+database/bat-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: dog
+database/dog-11.pgm
+Rank=4
+Rank=5
+Rank=5
+Rank=4
+Rank=4
+Classname: hammer
+database/hammer-14.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=4
+Rank=3
+Classname: classic
+database/classic-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: HCircle
+database/HCircle-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: frog
+database/frog-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Glas
+database/Glas-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-14.pgm
+Rank=3
+Rank=6
+Rank=3
+Rank=3
+Rank=3
+Classname: Misk
+database/Misk-14.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: face
+database/face-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: chopper
+database/chopper-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pocket
+database/pocket-14.pgm
+Rank=7
+Rank=6
+Rank=7
+Rank=7
+Rank=7
+Classname: device4
+database/device4-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-12.pgm
+Rank=4
+Rank=2
+Rank=3
+Rank=3
+Rank=3
+Classname: butterfly
+database/butterfly-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Glas
+database/Glas-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: deer
+database/deer-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=2
+Classname: device0
+database/device0-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bird
+database/bird-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bottle
+database/bottle-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: brick
+database/brick-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: horseshoe
+database/horseshoe-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: carriage
+database/carriage-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device6
+database/device6-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device0
+database/device0-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device8
+database/device8-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=2
+Classname: apple
+database/apple-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: fish
+database/fish-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-15.pgm
+Rank=5
+Rank=6
+Rank=5
+Rank=5
+Rank=5
+Classname: lizzard
+database/lizzard-13.pgm
+Rank=4
+Rank=4
+Rank=70
+Rank=4
+Rank=4
+Classname: device7
+database/device7-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bottle
+database/bottle-11.pgm
+Rank=1
+Rank=1
+Rank=5
+Rank=1
+Rank=1
+Classname: classic
+database/classic-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: dog
+database/dog-14.pgm
+Rank=70
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Bone
+database/Bone-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: horse
+database/horse-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: cup
+database/cup-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device5
+database/device5-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Bone
+database/Bone-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: HCircle
+database/HCircle-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fountain
+database/fountain-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device0
+database/device0-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device7
+database/device7-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fish
+database/fish-12.pgm
+Rank=2
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: jar
+database/jar-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: face
+database/face-13.pgm
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Rank=1
+Classname: fish
+database/fish-11.pgm
+Rank=1
+Rank=1
+Rank=2
+Rank=1
+Rank=1
+Classname: device1
+database/device1-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device4
+database/device4-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Comma
+database/Comma-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: hammer
+database/hammer-11.pgm
+Rank=2
+Rank=1
+Rank=2
+Rank=1
+Rank=2
+Classname: Bone
+database/Bone-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: car
+database/car-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-14.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: fork
+database/fork-13.pgm
+Rank=6
+Rank=6
+Rank=5
+Rank=4
+Rank=6
+Classname: frog
+database/frog-14.pgm
+Rank=6
+Rank=6
+Rank=6
+Rank=6
+Rank=6
+Classname: Glas
+database/Glas-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: lmfish
+database/lmfish-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Heart
+database/Heart-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: cattle
+database/cattle-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device2
+database/device2-12.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: rat
+database/rat-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device3
+database/device3-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: jar
+database/jar-13.pgm
+Rank=2
+Rank=70
+Rank=2
+Rank=2
+Rank=2
+Classname: rat
+database/rat-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-13.pgm
+Rank=1
+Rank=6
+Rank=2
+Rank=2
+Rank=1
+Classname: lizzard
+database/lizzard-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=3
+Rank=2
+Classname: fountain
+database/fountain-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bell
+database/bell-14.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -117,218 +1734,22 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: guitar
-database/guitar-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=70
-Classname: Bone
-database/Bone-14.pgm
-Rank=1
-Rank=5
-Rank=1
-Rank=1
-Rank=1
-Classname: hammer
-database/hammer-13.pgm
+Classname: octopus
+database/octopus-11.pgm
 Rank=3
 Rank=3
 Rank=3
-Rank=70
-Rank=4
-Classname: device1
-database/device1-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: crown
-database/crown-12.pgm
-Rank=1
-Rank=1
+Rank=3
+Rank=3
+Classname: flatfish
+database/flatfish-14.pgm
 Rank=2
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: guitar
-database/guitar-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: crown
-database/crown-11.pgm
-Rank=7
-Rank=70
-Rank=7
-Rank=7
-Rank=7
-Classname: device7
-database/device7-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=70
-Classname: horse
-database/horse-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-13.pgm
-Rank=1
-Rank=5
-Rank=1
-Rank=1
-Rank=1
+Rank=2
+Rank=2
+Rank=2
+Rank=2
 Classname: Heart
-database/Heart-14.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: children
-database/children-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-13.pgm
-Rank=3
-Rank=3
-Rank=70
-Rank=70
-Rank=3
-Classname: lmfish
-database/lmfish-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: elephant
-database/elephant-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: chopper
-database/chopper-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Misk
-database/Misk-13.pgm
-Rank=1
-Rank=2
-Rank=2
-Rank=1
-Rank=2
-Classname: device3
-database/device3-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Glas
-database/Glas-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: ray
-database/ray-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cattle
-database/cattle-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fish
-database/fish-15.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=70
-Rank=3
-Classname: Bone
-database/Bone-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bottle
-database/bottle-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bottle
-database/bottle-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=3
-Classname: device1
-database/device1-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: guitar
-database/guitar-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: car
-database/car-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device1
-database/device1-13.pgm
+database/Heart-13.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -341,34 +1762,153 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
+Classname: device3
+database/device3-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: HCircle
+database/HCircle-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: device4
+database/device4-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: personal_car
+database/personal_car-13.pgm
+Rank=10
+Rank=10
+Rank=8
+Rank=10
+Rank=10
+Classname: bottle
+database/bottle-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=2
+Rank=1
+Classname: bell
+database/bell-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fork
+database/fork-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: Heart
+database/Heart-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
 Classname: device1
-database/device1-11.pgm
+database/device1-13.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: apple
-database/apple-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
+Classname: device0
+database/device0-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fountain
+database/fountain-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pocket
+database/pocket-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: flatfish
+database/flatfish-11.pgm
+Rank=5
+Rank=5
+Rank=5
+Rank=5
+Rank=4
+Classname: rat
+database/rat-12.pgm
+Rank=1
+Rank=1
+Rank=1
 Rank=70
-Classname: pencil
-database/pencil-12.pgm
 Rank=1
-Rank=2
-Rank=1
+Classname: frog
+database/frog-13.pgm
 Rank=1
 Rank=1
-Classname: lizzard
-database/lizzard-14.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
+Rank=1
+Rank=1
+Rank=1
+Classname: cup
+database/cup-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: sea_snake
+database/sea_snake-11.pgm
+Rank=3
+Rank=3
+Rank=4
+Rank=3
+Rank=3
+Classname: beetle
+database/beetle-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: rat
+database/rat-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Glas
+database/Glas-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: horse
+database/horse-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
 Classname: Heart
 database/Heart-14.pgm
 Rank=2
@@ -376,26 +1916,369 @@ Rank=2
 Rank=2
 Rank=2
 Rank=2
-Classname: horse
-database/horse-14.pgm
+Classname: brick
+database/brick-11.pgm
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Rank=1
+Classname: chicken
+database/chicken-15.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
+Classname: device8
+database/device8-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: car
+database/car-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: camel
+database/camel-13.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: cup
+database/cup-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device7
+database/device7-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: octopus
+database/octopus-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=4
+Classname: device8
+database/device8-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-11.pgm
+Rank=7
+Rank=3
+Rank=3
+Rank=3
+Rank=3
 Classname: apple
-database/apple-11.pgm
+database/apple-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: deer
+database/deer-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: crown
+database/crown-14.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: lizzard
+database/lizzard-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=3
+Rank=2
+Classname: Heart
+database/Heart-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pocket
+database/pocket-14.pgm
+Rank=6
+Rank=7
+Rank=6
+Rank=7
+Rank=7
+Classname: hammer
+database/hammer-12.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=4
+Classname: HCircle
+database/HCircle-13.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: HCircle
+database/HCircle-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bird
+database/bird-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: carriage
+database/carriage-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Classname: fish
+database/fish-14.pgm
 Rank=2
 Rank=2
 Rank=2
 Rank=2
 Rank=2
+Classname: crown
+database/crown-11.pgm
+Rank=7
+Rank=3
+Rank=7
+Rank=6
+Rank=6
+Classname: guitar
+database/guitar-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=3
+Classname: children
+database/children-14.pgm
+Rank=70
+Rank=70
+Rank=1
+Rank=1
+Rank=1
+Classname: device7
+database/device7-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: horseshoe
+database/horseshoe-13.pgm
+Rank=2
+Rank=2
+Rank=1
+Rank=2
+Rank=2
+Classname: cellular_phone
+database/cellular_phone-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: jar
+database/jar-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: crown
+database/crown-14.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=70
+Rank=3
+Classname: classic
+database/classic-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: children
+database/children-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=3
+Rank=1
+Classname: bell
+database/bell-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: jar
+database/jar-12.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: car
+database/car-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-15.pgm
+Rank=5
+Rank=5
+Rank=5
+Rank=5
+Rank=7
+Classname: beetle
+database/beetle-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device2
+database/device2-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
 Classname: bat
-database/bat-11.pgm
+database/bat-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: face
+database/face-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Bone
+database/Bone-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: elephant
+database/elephant-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: flatfish
+database/flatfish-11.pgm
+Rank=5
+Rank=5
+Rank=5
+Rank=5
+Rank=5
+Classname: device0
+database/device0-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Glas
+database/Glas-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fly
+database/fly-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fly
+database/fly-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: cellular_phone
+database/cellular_phone-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device6
+database/device6-13.pgm
 Rank=2
 Rank=2
 Rank=2
 Rank=2
+Rank=2
+Classname: flatfish
+database/flatfish-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: bell
+database/bell-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: brick
+database/brick-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
 Rank=1
 Classname: flatfish
 database/flatfish-15.pgm
@@ -404,6 +2287,13 @@ Rank=2
 Rank=2
 Rank=2
 Rank=2
+Classname: fountain
+database/fountain-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
 Classname: classic
 database/classic-15.pgm
 Rank=1
@@ -411,29 +2301,106 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: dog
-database/dog-15.pgm
+Classname: device5
+database/device5-14.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: pocket
-database/pocket-13.pgm
+Classname: bird
+database/bird-13.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
+Classname: cattle
+database/cattle-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: HCircle
+database/HCircle-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: Comma
+database/Comma-15.pgm
+Rank=5
+Rank=4
+Rank=5
+Rank=4
+Rank=4
+Classname: bird
+database/bird-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: ray
+database/ray-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: elephant
+database/elephant-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: device6
+database/device6-13.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
 Classname: crown
 database/crown-12.pgm
 Rank=1
 Rank=1
+Rank=70
+Rank=1
+Rank=1
+Classname: device1
+database/device1-12.pgm
 Rank=1
 Rank=1
 Rank=1
-Classname: elephant
-database/elephant-14.pgm
+Rank=1
+Rank=1
+Classname: device7
+database/device7-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Misk
+database/Misk-13.pgm
+Rank=1
+Rank=1
+Rank=2
+Rank=1
+Rank=1
+Classname: chicken
+database/chicken-11.pgm
+Rank=1
+Rank=1
+Rank=2
+Rank=1
+Rank=1
+Classname: bird
+database/bird-14.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -447,56 +2414,140 @@ Rank=3
 Rank=3
 Rank=3
 Classname: children
-database/children-15.pgm
+database/children-11.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: camel
-database/camel-12.pgm
+Classname: fish
+database/fish-14.pgm
 Rank=2
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fish
-database/fish-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: device2
+database/device2-12.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: hat
+database/hat-14.pgm
 Rank=3
 Rank=3
+Rank=2
 Rank=3
-Rank=3
-Rank=3
-Classname: cattle
-database/cattle-11.pgm
+Rank=2
+Classname: device5
+database/device5-12.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: children
-database/children-14.pgm
+Classname: sea_snake
+database/sea_snake-12.pgm
+Rank=6
+Rank=5
+Rank=5
+Rank=5
+Rank=5
+Classname: cellular_phone
+database/cellular_phone-15.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: fish
-database/fish-15.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: car
-database/car-13.pgm
+Classname: jar
+database/jar-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: fountain
+database/fountain-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: elephant
+database/elephant-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: device4
+database/device4-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bottle
+database/bottle-12.pgm
+Rank=1
 Rank=1
 Rank=1
 Rank=70
 Rank=1
+Classname: HCircle
+database/HCircle-13.pgm
+Rank=3
+Rank=70
+Rank=3
+Rank=3
+Rank=3
+Classname: camel
+database/camel-11.pgm
 Rank=1
-Classname: car
-database/car-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: dog
+database/dog-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fish
+database/fish-12.pgm
+Rank=1
+Rank=1
+Rank=3
+Rank=1
+Rank=1
+Classname: fish
+database/fish-11.pgm
+Rank=2
+Rank=2
+Rank=1
+Rank=2
+Rank=1
+Classname: horse
+database/horse-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: flatfish
+database/flatfish-11.pgm
+Rank=5
+Rank=5
+Rank=5
+Rank=5
+Rank=4
+Classname: cattle
+database/cattle-11.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -508,282 +2559,58 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
-Rank=1
-Classname: fountain
-database/fountain-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device8
-database/device8-13.pgm
+Rank=2
+Classname: guitar
+database/guitar-12.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: pocket
-database/pocket-14.pgm
-Rank=7
-Rank=7
-Rank=7
-Rank=7
-Rank=7
-Classname: key
-database/key-12.pgm
-Rank=12
-Rank=13
-Rank=13
-Rank=12
-Rank=12
-Classname: pocket
-database/pocket-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device0
-database/device0-15.pgm
-Rank=1
-Rank=1
-Rank=1
+Classname: horseshoe
+database/horseshoe-15.pgm
+Rank=2
+Rank=2
 Rank=2
 Rank=1
-Classname: personal_car
-database/personal_car-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device3
-database/device3-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Bone
-database/Bone-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: deer
-database/deer-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: sea_snake
-database/sea_snake-11.pgm
-Rank=5
-Rank=4
-Rank=3
-Rank=4
-Rank=3
-Classname: horse
-database/horse-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chicken
-database/chicken-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: dog
-database/dog-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=3
-Rank=1
-Classname: personal_car
-database/personal_car-13.pgm
-Rank=10
-Rank=9
-Rank=10
-Rank=10
-Rank=10
-Classname: fork
-database/fork-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
+Rank=2
+Classname: fish
+database/fish-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
 Classname: classic
-database/classic-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: flatfish
-database/flatfish-14.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: bell
-database/bell-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: lizzard
-database/lizzard-13.pgm
-Rank=4
-Rank=4
-Rank=4
-Rank=3
-Rank=5
-Classname: hammer
-database/hammer-11.pgm
-Rank=1
-Rank=2
-Rank=1
-Rank=2
-Rank=2
-Classname: device0
-database/device0-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pencil
-database/pencil-11.pgm
+database/classic-14.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Classname: carriage
-database/carriage-12.pgm
+database/carriage-13.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: lmfish
-database/lmfish-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: car
-database/car-15.pgm
+Classname: device4
+database/device4-13.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Classname: frog
-database/frog-11.pgm
+database/frog-13.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: chopper
-database/chopper-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=8
-Rank=1
-Classname: classic
-database/classic-11.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: car
-database/car-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: personal_car
-database/personal_car-14.pgm
-Rank=3
-Rank=1
-Rank=1
-Rank=3
-Rank=1
-Classname: elephant
-database/elephant-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: face
-database/face-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-13.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=2
-Classname: deer
-database/deer-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=4
-Classname: elephant
-database/elephant-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pocket
-database/pocket-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bell
-database/bell-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device3
-database/device3-11.pgm
+Classname: bird
+database/bird-11.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -791,258 +2618,6 @@ Rank=1
 Rank=1
 Classname: device9
 database/device9-12.pgm
-Rank=1
-Rank=70
-Rank=1
-Rank=1
-Rank=1
-Classname: sea_snake
-database/sea_snake-11.pgm
-Rank=3
-Rank=2
-Rank=4
-Rank=4
-Rank=4
-Classname: device3
-database/device3-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device3
-database/device3-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: HCircle
-database/HCircle-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: ray
-database/ray-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: ray
-database/ray-15.pgm
-Rank=2
-Rank=2
-Rank=1
-Rank=2
-Rank=2
-Classname: face
-database/face-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: classic
-database/classic-11.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: fountain
-database/fountain-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: key
-database/key-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=1
-Classname: pencil
-database/pencil-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: hammer
-database/hammer-15.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: brick
-database/brick-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cellular_phone
-database/cellular_phone-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: jar
-database/jar-13.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: horse
-database/horse-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device4
-database/device4-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: beetle
-database/beetle-14.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: apple
-database/apple-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Rank=1
-Classname: bat
-database/bat-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: apple
-database/apple-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Glas
-database/Glas-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=70
-Classname: carriage
-database/carriage-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: hammer
-database/hammer-15.pgm
-Rank=8
-Rank=3
-Rank=2
-Rank=3
-Rank=3
-Classname: horse
-database/horse-15.pgm
-Rank=2
-Rank=2
-Rank=1
-Rank=1
-Rank=2
-Classname: cup
-database/cup-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cup
-database/cup-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: lmfish
-database/lmfish-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: brick
-database/brick-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: hat
-database/hat-11.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: elephant
-database/elephant-12.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: pencil
-database/pencil-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=70
-Rank=1
-Classname: pocket
-database/pocket-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cellular_phone
-database/cellular_phone-14.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -1055,239 +2630,15 @@ Rank=5
 Rank=5
 Rank=5
 Rank=5
-Classname: carriage
-database/carriage-12.pgm
+Classname: lmfish
+database/lmfish-12.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Rank=1
-Classname: Heart
-database/Heart-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device9
-database/device9-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: face
-database/face-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: elephant
-database/elephant-13.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: personal_car
-database/personal_car-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device2
-database/device2-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: flatfish
-database/flatfish-14.pgm
-Rank=2
-Rank=2
-Rank=1
-Rank=2
-Rank=2
-Classname: pocket
-database/pocket-14.pgm
-Rank=7
-Rank=7
-Rank=7
-Rank=7
-Rank=7
-Classname: device9
-database/device9-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: deer
-database/deer-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Classname: children
-database/children-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: sea_snake
-database/sea_snake-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cup
-database/cup-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fly
-database/fly-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fork
-database/fork-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bird
-database/bird-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chopper
-database/chopper-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device9
-database/device9-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: brick
-database/brick-11.pgm
-Rank=1
-Rank=70
-Rank=1
-Rank=1
-Rank=2
-Classname: car
-database/car-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: ray
-database/ray-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Heart
-database/Heart-14.pgm
-Rank=11
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: personal_car
-database/personal_car-15.pgm
-Rank=2
-Rank=1
-Rank=1
-Rank=70
 Rank=1
 Classname: device5
-database/device5-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: key
-database/key-14.pgm
-Rank=1
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: horseshoe
-database/horseshoe-12.pgm
-Rank=1
-Rank=70
-Rank=1
-Rank=1
-Rank=1
-Classname: cellular_phone
-database/cellular_phone-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: frog
-database/frog-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bottle
-database/bottle-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device2
-database/device2-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Bone
-database/Bone-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device0
-database/device0-11.pgm
+database/device5-13.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -1300,1489 +2651,12 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: Misk
-database/Misk-12.pgm
-Rank=2
-Rank=3
-Rank=3
-Rank=2
-Rank=3
-Classname: jar
-database/jar-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: crown
-database/crown-15.pgm
-Rank=6
-Rank=6
-Rank=6
-Rank=6
-Rank=8
-Classname: face
-database/face-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device9
-database/device9-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: ray
-database/ray-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: dog
-database/dog-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: guitar
-database/guitar-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: deer
-database/deer-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: apple
-database/apple-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: device3
-database/device3-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device1
-database/device1-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: HCircle
-database/HCircle-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device0
-database/device0-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fly
-database/fly-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bird
-database/bird-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Glas
-database/Glas-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device2
-database/device2-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bird
-database/bird-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device1
-database/device1-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: frog
-database/frog-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: guitar
-database/guitar-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: children
-database/children-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=70
-Rank=1
-Classname: Heart
-database/Heart-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bird
-database/bird-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=5
-Rank=1
-Classname: chicken
-database/chicken-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: face
-database/face-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: hammer
-database/hammer-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: device0
-database/device0-15.pgm
-Rank=1
-Rank=1
-Rank=2
-Rank=1
-Rank=1
-Classname: flatfish
-database/flatfish-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: beetle
-database/beetle-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: brick
-database/brick-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: flatfish
-database/flatfish-11.pgm
-Rank=5
-Rank=4
-Rank=5
-Rank=5
-Rank=3
-Classname: HCircle
-database/HCircle-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: horse
-database/horse-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device8
-database/device8-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: guitar
-database/guitar-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: horseshoe
-database/horseshoe-13.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: device8
-database/device8-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pocket
-database/pocket-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: children
-database/children-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Glas
-database/Glas-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: children
-database/children-12.pgm
-Rank=5
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bird
-database/bird-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fork
-database/fork-13.pgm
-Rank=6
-Rank=6
-Rank=5
-Rank=5
-Rank=5
-Classname: guitar
-database/guitar-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-13.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: cattle
-database/cattle-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: face
-database/face-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fork
-database/fork-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device7
-database/device7-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: lmfish
-database/lmfish-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device2
-database/device2-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Bone
-database/Bone-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Classname: guitar
-database/guitar-12.pgm
-Rank=1
-Rank=1
-Rank=70
-Rank=1
-Rank=1
-Classname: apple
-database/apple-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: rat
-database/rat-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chicken
-database/chicken-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Heart
-database/Heart-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device8
-database/device8-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-11.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
 Classname: fountain
-database/fountain-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: hat
-database/hat-13.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=3
-Rank=2
-Classname: carriage
-database/carriage-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chicken
-database/chicken-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: brick
-database/brick-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=4
-Rank=1
-Classname: HCircle
-database/HCircle-13.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: device0
-database/device0-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device2
-database/device2-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pencil
-database/pencil-12.pgm
-Rank=3
-Rank=2
-Rank=1
-Rank=1
-Rank=1
-Classname: personal_car
-database/personal_car-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: crown
-database/crown-15.pgm
-Rank=6
-Rank=6
-Rank=6
-Rank=6
-Rank=6
-Classname: guitar
-database/guitar-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=3
-Rank=3
-Classname: chopper
-database/chopper-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-15.pgm
-Rank=5
-Rank=5
-Rank=5
-Rank=4
-Rank=4
-Classname: device1
-database/device1-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bottle
-database/bottle-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=3
-Rank=2
-Classname: jar
-database/jar-13.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: carriage
-database/carriage-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=6
-Classname: fork
-database/fork-13.pgm
-Rank=6
-Rank=5
-Rank=6
-Rank=6
-Rank=6
-Classname: fly
-database/fly-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Rank=1
-Classname: flatfish
-database/flatfish-14.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: device7
-database/device7-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: beetle
-database/beetle-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: horseshoe
-database/horseshoe-13.pgm
-Rank=2
-Rank=1
-Rank=2
-Rank=2
-Rank=2
-Classname: apple
-database/apple-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: deer
-database/deer-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bell
-database/bell-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device1
-database/device1-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: horse
-database/horse-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bat
-database/bat-13.pgm
-Rank=4
-Rank=4
-Rank=1
-Rank=1
-Rank=1
-Classname: flatfish
-database/flatfish-14.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: bird
-database/bird-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device2
-database/device2-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chopper
-database/chopper-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: elephant
-database/elephant-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: ray
-database/ray-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: car
-database/car-14.pgm
-Rank=1
-Rank=2
-Rank=1
-Rank=1
-Rank=1
-Classname: Heart
-database/Heart-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: dog
-database/dog-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Bone
-database/Bone-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fly
-database/fly-12.pgm
-Rank=70
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Classname: device4
-database/device4-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: sea_snake
-database/sea_snake-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: classic
-database/classic-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Glas
-database/Glas-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chicken
-database/chicken-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device1
-database/device1-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: lmfish
-database/lmfish-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: face
-database/face-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bottle
-database/bottle-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device4
-database/device4-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: key
-database/key-12.pgm
-Rank=13
-Rank=12
-Rank=12
-Rank=13
-Rank=12
-Classname: personal_car
-database/personal_car-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Classname: brick
-database/brick-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fly
-database/fly-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: face
-database/face-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device4
-database/device4-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Classname: device6
-database/device6-12.pgm
-Rank=2
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chicken
-database/chicken-13.pgm
-Rank=8
-Rank=1
-Rank=1
-Rank=4
-Rank=1
-Classname: octopus
-database/octopus-12.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: frog
-database/frog-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Misk
-database/Misk-14.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: dog
-database/dog-11.pgm
-Rank=4
-Rank=4
-Rank=4
-Rank=5
-Rank=4
-Classname: bell
-database/bell-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cellular_phone
-database/cellular_phone-15.pgm
-Rank=1
+database/fountain-15.pgm
 Rank=1
 Rank=1
 Rank=70
 Rank=1
-Classname: beetle
-database/beetle-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: deer
-database/deer-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pocket
-database/pocket-15.pgm
-Rank=1
-Rank=1
-Rank=70
-Rank=1
-Rank=1
-Classname: hat
-database/hat-14.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=4
-Rank=2
-Classname: horse
-database/horse-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Classname: device7
-database/device7-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Rank=1
-Classname: face
-database/face-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: lmfish
-database/lmfish-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bell
-database/bell-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: lizzard
-database/lizzard-11.pgm
-Rank=4
-Rank=4
-Rank=4
-Rank=4
-Rank=4
-Classname: jar
-database/jar-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: chicken
-database/chicken-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device5
-database/device5-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: key
-database/key-12.pgm
-Rank=12
-Rank=12
-Rank=13
-Rank=9
-Rank=13
-Classname: face
-database/face-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-11.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=70
-Rank=3
-Classname: flatfish
-database/flatfish-13.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: jar
-database/jar-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: car
-database/car-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: dog
-database/dog-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=3
-Classname: cup
-database/cup-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cattle
-database/cattle-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-15.pgm
-Rank=5
-Rank=4
-Rank=5
-Rank=5
-Rank=4
-Classname: fish
-database/fish-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cattle
-database/cattle-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device9
-database/device9-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device8
-database/device8-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: face
-database/face-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pencil
-database/pencil-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: key
-database/key-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: Heart
-database/Heart-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cellular_phone
-database/cellular_phone-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fork
-database/fork-14.pgm
-Rank=1
-Rank=4
-Rank=1
-Rank=1
-Rank=1
-Classname: device4
-database/device4-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device1
-database/device1-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=70
-Rank=1
-Classname: lmfish
-database/lmfish-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=5
-Rank=1
-Classname: fish
-database/fish-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cattle
-database/cattle-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pencil
-database/pencil-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pencil
-database/pencil-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=4
-Classname: fish
-database/fish-12.pgm
-Rank=1
-Rank=1
-Rank=2
-Rank=1
-Rank=1
-Classname: hat
-database/hat-14.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=2
-Rank=2
-Classname: octopus
-database/octopus-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: hat
-database/hat-15.pgm
-Rank=4
-Rank=4
-Rank=5
-Rank=4
-Rank=4
-Classname: device3
-database/device3-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bottle
-database/bottle-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: elephant
-database/elephant-13.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: Bone
-database/Bone-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bat
-database/bat-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-11.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: hat
-database/hat-11.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: sea_snake
-database/sea_snake-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: rat
-database/rat-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Comma
-database/Comma-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: hammer
-database/hammer-13.pgm
-Rank=2
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: beetle
-database/beetle-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: crown
-database/crown-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: apple
-database/apple-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: fish
-database/fish-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Rank=1
-Classname: Glas
-database/Glas-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: rat
-database/rat-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bell
-database/bell-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: camel
-database/camel-13.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: ray
-database/ray-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device6
-database/device6-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: face
-database/face-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: rat
-database/rat-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: jar
-database/jar-12.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: Glas
-database/Glas-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: deer
-database/deer-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fountain
-database/fountain-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: crown
-database/crown-15.pgm
-Rank=6
-Rank=5
-Rank=6
-Rank=6
-Rank=6
-Classname: personal_car
-database/personal_car-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Misk
-database/Misk-15.pgm
-Rank=5
-Rank=5
-Rank=5
-Rank=5
-Rank=5
-Classname: chopper
-database/chopper-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device8
-database/device8-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: lmfish
-database/lmfish-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: horseshoe
-database/horseshoe-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: ray
-database/ray-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=2
-Classname: car
-database/car-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cellular_phone
-database/cellular_phone-11.pgm
-Rank=1
-Rank=70
-Rank=1
-Rank=1
-Rank=3
-Classname: jar
-database/jar-12.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=70
-Classname: car
-database/car-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=2
 Rank=1
 Classname: bottle
 database/bottle-12.pgm
@@ -2796,339 +2670,66 @@ database/personal_car-14.pgm
 Rank=3
 Rank=3
 Rank=3
-Rank=2
-Rank=3
-Classname: ray
-database/ray-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-14.pgm
-Rank=1
-Rank=70
-Rank=1
-Rank=2
-Rank=1
-Classname: car
-database/car-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fountain
-database/fountain-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: camel
-database/camel-15.pgm
 Rank=3
 Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: camel
-database/camel-12.pgm
-Rank=2
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: deer
-database/deer-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chicken
-database/chicken-11.pgm
-Rank=1
-Rank=4
-Rank=1
-Rank=1
-Rank=1
-Classname: butterfly
-database/butterfly-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fish
-database/fish-11.pgm
-Rank=2
-Rank=1
-Rank=2
-Rank=1
-Rank=1
-Classname: jar
-database/jar-14.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: fork
-database/fork-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cellular_phone
-database/cellular_phone-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=70
-Rank=1
-Classname: apple
-database/apple-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: lmfish
-database/lmfish-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
 Classname: cattle
-database/cattle-15.pgm
+database/cattle-13.pgm
 Rank=1
 Rank=1
-Rank=1
+Rank=2
 Rank=1
 Rank=1
 Classname: fountain
-database/fountain-15.pgm
+database/fountain-13.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: bell
-database/bell-15.pgm
+Classname: device4
+database/device4-11.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Classname: device0
-database/device0-15.pgm
+database/device0-11.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: cellular_phone
-database/cellular_phone-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bottle
-database/bottle-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cattle
-database/cattle-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: horse
-database/horse-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: guitar
-database/guitar-11.pgm
-Rank=1
-Rank=1
-Rank=70
-Rank=1
-Rank=1
-Classname: device4
-database/device4-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device3
-database/device3-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device7
-database/device7-12.pgm
-Rank=1
-Rank=70
-Rank=1
-Rank=1
-Rank=1
-Classname: HCircle
-database/HCircle-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pencil
-database/pencil-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=4
-Classname: jar
-database/jar-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: Comma
-database/Comma-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: pocket
-database/pocket-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chopper
-database/chopper-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device4
-database/device4-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: HCircle
-database/HCircle-13.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
 Classname: Glas
-database/Glas-12.pgm
+database/Glas-14.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: bird
-database/bird-12.pgm
+Classname: sea_snake
+database/sea_snake-13.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: device0
-database/device0-14.pgm
+Classname: fountain
+database/fountain-11.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: fly
-database/fly-14.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: dog
-database/dog-11.pgm
-Rank=4
-Rank=4
-Rank=4
-Rank=4
-Rank=4
-Classname: device6
-database/device6-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: jar
-database/jar-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: device8
-database/device8-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device6
-database/device6-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: device7
-database/device7-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: frog
-database/frog-12.pgm
-Rank=3
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fly
-database/fly-14.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: bell
-database/bell-13.pgm
+Classname: crown
+database/crown-11.pgm
+Rank=6
+Rank=7
+Rank=7
+Rank=7
+Rank=7
+Classname: device1
+database/device1-15.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -3141,344 +2742,99 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: jar
-database/jar-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: lmfish
-database/lmfish-11.pgm
+Classname: Bone
+database/Bone-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fork
+database/fork-12.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Classname: fountain
-database/fountain-12.pgm
+database/fountain-11.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: face
-database/face-12.pgm
+Classname: Comma
+database/Comma-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=5
+Rank=1
+Classname: bottle
+database/bottle-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pencil
+database/pencil-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: butterfly
+database/butterfly-13.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Classname: device8
-database/device8-13.pgm
+database/device8-12.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Rank=1
-Classname: chopper
-database/chopper-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fountain
-database/fountain-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: ray
-database/ray-12.pgm
-Rank=1
-Rank=70
-Rank=1
-Rank=2
 Rank=1
 Classname: cup
-database/cup-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Heart
-database/Heart-12.pgm
+database/cup-13.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Classname: deer
-database/deer-15.pgm
+database/deer-12.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Classname: cup
-database/cup-11.pgm
-Rank=8
+Classname: Comma
+database/Comma-13.pgm
 Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: classic
-database/classic-12.pgm
-Rank=70
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Bone
-database/Bone-11.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=70
-Rank=1
-Classname: apple
-database/apple-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cattle
-database/cattle-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: HCircle
-database/HCircle-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: apple
-database/apple-11.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: guitar
-database/guitar-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device1
-database/device1-14.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bat
-database/bat-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Classname: brick
-database/brick-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
 Classname: bottle
 database/bottle-12.pgm
 Rank=1
 Rank=1
 Rank=1
 Rank=1
-Rank=70
-Classname: deer
-database/deer-13.pgm
 Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cellular_phone
-database/cellular_phone-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: children
-database/children-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device2
-database/device2-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: hammer
-database/hammer-13.pgm
-Rank=4
-Rank=3
-Rank=4
-Rank=4
-Rank=3
-Classname: lmfish
-database/lmfish-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: hammer
-database/hammer-12.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=2
-Classname: face
-database/face-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: device0
-database/device0-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: cattle
-database/cattle-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: chicken
-database/chicken-14.pgm
-Rank=3
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fly
-database/fly-11.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Misk
-database/Misk-13.pgm
-Rank=1
-Rank=1
-Rank=2
-Rank=1
-Rank=1
-Classname: fly
-database/fly-13.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: octopus
-database/octopus-12.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Classname: device6
-database/device6-13.pgm
+Classname: bird
+database/bird-15.pgm
 Rank=2
 Rank=2
 Rank=2
 Rank=2
 Rank=2
-Classname: device6
-database/device6-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: carriage
-database/carriage-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Misk
-database/Misk-12.pgm
-Rank=3
-Rank=3
-Rank=3
-Rank=3
-Rank=3
 Classname: device5
-database/device5-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: deer
-database/deer-14.pgm
-Rank=2
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: fly
-database/fly-12.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: bat
-database/bat-15.pgm
-Rank=2
-Rank=2
-Rank=2
-Rank=2
-Rank=70
-Classname: Glas
-database/Glas-15.pgm
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Rank=1
-Classname: Misk
-database/Misk-15.pgm
-Rank=5
-Rank=5
-Rank=5
-Rank=5
-Rank=5
-Classname: classic
-database/classic-13.pgm
+database/device5-14.pgm
 Rank=1
 Rank=1
 Rank=1
@@ -3491,6 +2847,300 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
+Classname: camel
+database/camel-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: jar
+database/jar-13.pgm
+Rank=2
+Rank=70
+Rank=2
+Rank=2
+Rank=2
+Classname: Misk
+database/Misk-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bottle
+database/bottle-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fork
+database/fork-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=1
+Rank=2
+Classname: Glas
+database/Glas-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: lizzard
+database/lizzard-12.pgm
+Rank=4
+Rank=70
+Rank=4
+Rank=4
+Rank=4
+Classname: hat
+database/hat-14.pgm
+Rank=2
+Rank=2
+Rank=3
+Rank=3
+Rank=3
+Classname: lizzard
+database/lizzard-12.pgm
+Rank=4
+Rank=4
+Rank=4
+Rank=4
+Rank=4
+Classname: fly
+database/fly-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fork
+database/fork-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: bottle
+database/bottle-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=2
+Rank=1
+Classname: Misk
+database/Misk-11.pgm
+Rank=3
+Rank=3
+Rank=6
+Rank=3
+Rank=3
+Classname: device5
+database/device5-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: hammer
+database/hammer-14.pgm
+Rank=2
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: jar
+database/jar-12.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: sea_snake
+database/sea_snake-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fly
+database/fly-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: horseshoe
+database/horseshoe-13.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: device6
+database/device6-13.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: car
+database/car-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: car
+database/car-14.pgm
+Rank=2
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: hammer
+database/hammer-12.pgm
+Rank=4
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: fish
+database/fish-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: guitar
+database/guitar-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: apple
+database/apple-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: hat
+database/hat-13.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=3
+Rank=2
+Classname: device5
+database/device5-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pocket
+database/pocket-14.pgm
+Rank=7
+Rank=7
+Rank=7
+Rank=7
+Rank=7
+Classname: children
+database/children-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device8
+database/device8-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Glas
+database/Glas-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: fork
+database/fork-13.pgm
+Rank=5
+Rank=6
+Rank=6
+Rank=6
+Rank=5
+Classname: Comma
+database/Comma-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=7
+Rank=1
+Classname: elephant
+database/elephant-15.pgm
+Rank=1
+Rank=3
+Rank=1
+Rank=1
+Rank=1
+Classname: fountain
+database/fountain-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Classname: frog
+database/frog-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: key
+database/key-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=2
+Rank=1
+Classname: flatfish
+database/flatfish-13.pgm
+Rank=2
+Rank=3
+Rank=3
+Rank=3
+Rank=2
+Classname: classic
+database/classic-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Bone
+database/Bone-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device4
+database/device4-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
 Classname: fountain
 database/fountain-13.pgm
 Rank=1
@@ -3498,11 +3148,361 @@ Rank=1
 Rank=1
 Rank=1
 Rank=1
+Classname: device3
+database/device3-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Heart
+database/Heart-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: cattle
+database/cattle-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: sea_snake
+database/sea_snake-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: children
+database/children-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Heart
+database/Heart-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: Comma
+database/Comma-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: car
+database/car-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: camel
+database/camel-12.pgm
+Rank=2
+Rank=1
+Rank=1
+Rank=2
+Rank=1
+Classname: chopper
+database/chopper-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device5
+database/device5-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: flatfish
+database/flatfish-11.pgm
+Rank=5
+Rank=5
+Rank=6
+Rank=5
+Rank=5
+Classname: pencil
+database/pencil-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: hammer
+database/hammer-15.pgm
+Rank=3
+Rank=3
+Rank=2
+Rank=3
+Rank=3
+Classname: face
+database/face-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: brick
+database/brick-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: hammer
+database/hammer-11.pgm
+Rank=2
+Rank=1
+Rank=2
+Rank=2
+Rank=2
+Classname: classic
+database/classic-11.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Rank=3
+Classname: fly
+database/fly-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device8
+database/device8-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: rat
+database/rat-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: device5
+database/device5-14.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bat
+database/bat-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: apple
+database/apple-11.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: flatfish
+database/flatfish-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: hat
+database/hat-14.pgm
+Rank=3
+Rank=3
+Rank=3
+Rank=2
+Rank=3
+Classname: bird
+database/bird-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: children
+database/children-12.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: guitar
+database/guitar-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: jar
+database/jar-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: crown
+database/crown-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=3
+Classname: fly
+database/fly-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: chopper
+database/chopper-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pocket
+database/pocket-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: car
+database/car-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Classname: device8
+database/device8-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: bottle
+database/bottle-14.pgm
+Rank=1
+Rank=4
+Rank=1
+Rank=1
+Rank=1
+Classname: key
+database/key-14.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: device4
+database/device4-15.pgm
+Rank=1
+Rank=1
+Rank=70
+Rank=1
+Rank=1
+Classname: device7
+database/device7-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: chicken
+database/chicken-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: crown
+database/crown-15.pgm
+Rank=7
+Rank=6
+Rank=5
+Rank=6
+Rank=6
+Classname: frog
+database/frog-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: frog
+database/frog-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: flatfish
+database/flatfish-14.pgm
+Rank=2
+Rank=1
+Rank=2
+Rank=2
+Rank=2
+Classname: beetle
+database/beetle-15.pgm
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Rank=2
+Classname: fly
+database/fly-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: brick
+database/brick-13.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: pocket
+database/pocket-15.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Classname: carriage
+database/carriage-11.pgm
+Rank=1
+Rank=1
+Rank=1
+Rank=1
+Rank=1
 
-Number of 'correct' classification (first 10 classes)= 2447.
+Number of 'correct' classification (first 10 classes)= 2462.
 Total number of tests= 2500.
-Final score=  0.9788
+Final score=  0.98480000000000001
 
-real	97m50.803s
-user	97m2.436s
-sys	12m7.416s
+real	93m7.406s
+user	92m56.020s
+sys	12m46.352s
